@@ -1,0 +1,289 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    
+}
+
+span {
+    color: #2f86d6;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.topo {
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(240, 238, 238);
+    height: 150px;
+}
+
+.topo img {
+    position: relative;
+    width: 90px;
+    top: 20%;
+    left: 24%;
+}
+
+.topo p {
+    position: relative;
+    left: 30%;
+    top: -43%;
+    font-weight: 600;
+}
+
+
+
+.topo > h1 {
+    position: relative;
+    left: 30%;
+    top: -43%;
+}
+
+.topo a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    padding: 5px;
+    top: -63%;
+    left: 60%;
+    font-weight: 500;
+    font-size: 18px;
+    bottom: 1%;
+}
+
+.topo a:hover {
+    color: #0a82f3;
+    border-bottom: 2px solid rgb(130, 116, 206);
+    text-shadow: 1px 0px 1px rgb(3, 63, 71);
+}
+
+.precos {
+    position: relative;
+    background-color: #2f86d6;
+    padding: 80px;
+}
+
+.precos div {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    left: 22%;
+    bottom: 10%;
+}
+
+.precos h1 {
+    position: relative;
+    color: white;
+    text-align: justify;
+    padding: 10px;
+}
+
+.precos p {
+    font-weight: bold;
+    position: relative;
+    color: white;
+    text-align: justify;
+    padding: 10px;
+}
+
+.precos img {
+    width: 400px;
+    position: absolute;
+    top: 10%;
+    right: 24%;
+
+}
+
+.propaganda {
+    background-color: #233032;
+    padding: 20px;
+}
+
+.propaganda2 {
+    background-color: #2f86d6;
+    padding: 20px;
+}
+
+.propaganda h1 {
+    left: 10%;
+    font-size: 28px;
+    position: relative;
+    color: white;   
+}
+
+
+.propaganda p {
+    left: 10%;
+    font-size: 18px;
+    position: relative;
+    color: white; 
+}
+
+.propaganda2 p {
+    left: 20%;
+    font-size: 25px;
+    position: relative;
+    color: white;
+}
+
+.propaganda a {
+    display: inline;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 60%;
+    bottom: 40px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    background-color: #2f86d6;
+    padding: 10px;
+}
+
+.propaganda2 a {
+    display: inline;
+
+    position: relative;
+    left: 60%;
+    bottom: 40px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    background-color: #233032;
+    padding: 10px;
+}
+
+.propaganda2 a:hover {
+    background-color: #394041;
+    padding: 12px;
+}
+
+.propaganda a:hover {
+    background-color: #256aaa;
+    padding: 12px;
+}
+
+
+
+
+.informacoes {
+    position: relative;
+    height: 500px;
+}
+
+.informacoes h2 {
+    top: 60px;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.tresdivs {
+    top: 60px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+
+.tresdivs img {
+    width: 100px;
+}
+
+
+.planos {
+    height: 600px;
+    position: relative;
+    background-color: #d8d7d7;
+}
+
+.planos h2 {
+    top: 50px;
+    position: relative;
+    text-align: center;
+}
+
+.tabela img {
+    position: relative;
+    width: 100px;
+}
+
+.tabela {
+    background-color: white;
+    text-align: center;
+    width: 1000px;
+    height: 400px;
+    left: 23%;
+    top: 17%;
+    position: relative;
+    box-shadow: 1px 1px 10px 10px #2f85d6ad
+}
+
+.tabela p {
+    color: #7c7d7e9c;
+}
+
+.borda {
+    padding: 20px;
+    border: 3px solid rgba(151, 151, 151, 0.26);
+
+}
+
+.cinza {
+    background-color: #676a6d38;
+}
+
+.cinza:hover {
+    background-color: #46494b38;
+    color: #2f86d6;
+}
+
+tbody {
+    font-weight: 500;
+}
+
+.footer {
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+}
+
+.footer img {
+    position: absolute;
+    width: 90px;
+    top: 8%;
+    left: 39%;
+}
+
+.footer p {
+    position: relative;
+    padding: 5px;
+    top: 20%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.techfinal {
+    position: relative;
+    left: 45%;
+    top: 30px;
+}
+
+
+.footer h3 {
+    padding: 10px;
+    background-color: #233032;
+    position: relative;
+    bottom: -128px;
+    text-align: center;
+}
